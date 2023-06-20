@@ -12,17 +12,17 @@ with open('products_new.csv', 'r') as file:
         inventory = row['inventory']
 
         prompts = [
-            f"What deparment is {product_name} located?"
-            f"What aisle is {product_name} located?"
-            f"What other products can I find that are similar to {product_name} and in the same aisle?"
-            f"How much more do you have of {product_name}?"
+            f"What deparment is {product_name} located? \n\n###\n\n",
+            f"What aisle is {product_name} located? \n\n###\n\n",
+            f"What other products can I find that are similar to {product_name} and in the same aisle? \n\n###\n\n",
+            f"How much more do you have of {product_name}? \n\n###\n\n"
         ]
 
         completions = [
-            f"{product_name} is located in deparment {department_id}.",
-            f"{product_name} can be found in aisle {aisle_id}.",
-            f"You can find similar products to {product_name} in the same aisle, such as [product_name_1], [product_name_2], and [product_name_3].",
-            f"We currently have {inventory} units of {product_name} in stock."
+            f" {product_name} is located in deparment {department_id}. #####",
+            f" {product_name} can be found in aisle {aisle_id}. #####",
+            f" You can find similar products to {product_name} in the same aisle, such as [product_name_1], [product_name_2], and [product_name_3]. #####",
+            f" We currently have {inventory} units of {product_name} in stock. #####"
         ]
 
         for prompt, completion in zip(prompts, completions):
@@ -31,7 +31,7 @@ with open('products_new.csv', 'r') as file:
                 "completion": completion
             })
 
-with open('dataset.json', 'w') as file:
+with open('dataset_prepared.json', 'w') as file:
     json.dump(dataset, file, indent=2)
 
-print("Dataset written to 'dataset.json' file.")
+print("Dataset written to 'dataset_prepared.json' file.")

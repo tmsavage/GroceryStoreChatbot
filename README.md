@@ -1,7 +1,9 @@
-# sampleChatbot
-Playing around with GPTs! I'm making steady progress on a sampleChatbot on sample data. Follow along!
+# GroceryChatbot
+Meet Phil! He is a GPT Chatbot model here to help with any questions you have regarding Fitty Groceries.
 
-sampleChatbot has been fine-tuned on products_new.csv dataset.
+Playing around with GPTs! I'm making steady progress on this chatbot on sample data. Follow along!
+
+Fine-tuning Phil on the products_new.csv dataset.
 
 Some Code Segments are referenced from the following deeplearning.ai courses:
 - Building Systems with the ChatGPT API

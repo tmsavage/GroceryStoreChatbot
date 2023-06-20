@@ -1,5 +1,5 @@
 # sampleChatbot
-Playing around with GPTs! 
+Playing around with GPTs! I'm making steady progress on a sampleChatbot on sample data. Follow along!
 
 sampleChatbot has been fine-tuned on products_new.csv dataset.
 

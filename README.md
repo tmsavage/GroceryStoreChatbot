@@ -1,4 +1,4 @@
-# GroceryChatbot
+# GroceryStoreChatbot
 Meet Phil! He is a GPT Chatbot model here to help with any questions you have regarding Fitty Groceries.
 
 Playing around with GPTs! I'm making steady progress on this chatbot on sample data. Follow along!

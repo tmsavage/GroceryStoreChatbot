@@ -5,6 +5,12 @@ Playing around with GPTs! I'm making steady progress on this chatbot on sample d
 
 Fine-tuning Phil on the products_new.csv dataset.
 
+## Things to add to README
+- How do I get from fine-tuning to a working GPT model
+- What are the steps to train my model? Dependencies?
+- How do I load the demo on my machine?
+
+
 Some Code Segments are referenced from the following deeplearning.ai courses:
 - Building Systems with the ChatGPT API
 - ChatGPT Prompt Engineering for Developers

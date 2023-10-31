@@ -1,4 +1,7 @@
 # GroceryStoreChatbot
+
+**This is a different, drastically simplified project than the Chatbot I produced at Canary Medical**
+
 Meet Phil! He is a GPT Chatbot model here to help with any questions you have regarding Fitty Groceries.
 
 Playing around with GPTs! I'm making steady progress on this chatbot on sample data. Follow along!
